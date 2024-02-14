@@ -1,5 +1,7 @@
 import Component from '@glimmer/component';
 import Button from 'remoteApp/Button'
+// const Button = require('remoteApp/Button');
+// import * as ReactModule from 'http://localhost:5001/assets/remoteEntry.js'
 
 export default class MyComponentComponent extends Component {
   constructor() {
@@ -8,7 +10,7 @@ export default class MyComponentComponent extends Component {
   }
 
   get name() {
-    // console.log('name', Button);
+    console.log('name', Button);
     return 'John Doe';
   }
 }
